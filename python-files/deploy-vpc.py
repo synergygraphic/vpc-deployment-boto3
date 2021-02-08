@@ -73,7 +73,7 @@ def main():
     instance_private=create_instance(imageId,instanceType,sg_public.group_id,subnets_privates[0],keyname,tags_ec2_private,False)
     print("It has been created Instance", instance_private)
     
-    #For NAT Gateway
+    #For NAT Gateway -Un-comment the next line in order to deploy the NAT Gateway
     #allocation = ec2Client.allocate_address(Domain='vpc')
 
 
